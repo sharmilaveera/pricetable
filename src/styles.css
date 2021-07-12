@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+  .TableApp {
+    font-family: sans-serif;
+
+    background: linear-gradient(to bottom, #66ccff 0%, #0033cc 100%);
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.button:hover {
+  transform: scale(1.03);
+}
+
+.button {
+  border-radius: 1rem;
+  background-color: whitesmoke;
+  height: fit-content;
+  padding: 20px;
+  margin: 15px;
+}
+h3 {
+  color: grey;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+span {
+  font-size: 20px;
+  font-weight: normal;
+}
+hr {
+  color: gray;
+  width: 80%;
+  height: 0.1;
+}
+Button {
+  text-align: center;
+}
